@@ -2,9 +2,10 @@
   "name": "ohlc",
   "version": "1.0.0",
   "description": "Open high low chart",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dist": "webpack"
   },
   "repository": {
     "type": "git",
@@ -18,5 +19,21 @@
   "bugs": {
     "url": "https://github.com/VisalakshiVairavan/ohlc/issues"
   },
-  "homepage": "https://github.com/VisalakshiVairavan/ohlc#readme"
+  "homepage": "https://github.com/VisalakshiVairavan/ohlc#readme",
+  "dependencies": {
+    "react": "^16.5.1",
+    "react-dom": "^16.5.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.0.1",
+    "@babel/preset-env": "^7.0.0",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.2",
+    "css-loader": "^1.0.0",
+    "node-sass": "^4.9.3",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.0",
+    "webpack": "^4.19.0",
+    "webpack-cli": "^3.1.0"
+  }
 }

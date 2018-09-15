@@ -1,0 +1,15 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  .inherit-height {
+    display: flex;
+    flex-flow: row;
+    height: calc(100% - 70px);
+  }
+}
