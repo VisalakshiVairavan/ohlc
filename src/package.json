@@ -1,0 +1,22 @@
+{
+  "name": "ohlc",
+  "version": "1.0.0",
+  "description": "Open high low chart",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VisalakshiVairavan/ohlc.git"
+  },
+  "keywords": [
+    "OHLC"
+  ],
+  "author": "Visalakshi Vairavan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VisalakshiVairavan/ohlc/issues"
+  },
+  "homepage": "https://github.com/VisalakshiVairavan/ohlc#readme"
+}
