@@ -7,6 +7,8 @@ const config = {
     path: path.resolve(__dirname, "dist"),
     filename: "bundle.js"
   },
+  watch: true,
+  mode: "development",
   module: {
     rules: [
       {

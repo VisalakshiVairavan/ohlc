@@ -3,7 +3,7 @@ import ReactDOM from "react-dom";
 import "./footer.scss";
 class Footer extends Component {
   render() {
-    return <div class="footer"> A Footer</div>;
+    return <div className="footer"> A Footer</div>;
   }
 }
 

@@ -4,7 +4,7 @@ import "./chart.scss";
 class Chart extends Component {
   render() {
     return (
-      <div class="chart">
+      <div className="chart">
         <canvas />
       </div>
     );
