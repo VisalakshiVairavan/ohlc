@@ -6,8 +6,10 @@ This is a react application that creates a open high low chart using the daily t
 
 To run the project run,
 
-**npm install**
+`npm install`
 
-**npm run dist**
+`npm run dist`
 
-**webpack-server-dev**
+`webpack-server-dev`
+
+Launch the site from http://localhost:8080/dist
