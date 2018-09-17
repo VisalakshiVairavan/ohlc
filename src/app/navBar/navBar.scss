@@ -2,7 +2,7 @@
   background-color: #c3e2c4;
   color: grey;
   float: left;
-  min-height: calc(100% - 70px);
+  min-height: calc(100vh - 70px);
   flex: 1 0 auto;
   align-self: stretch;
 }
@@ -14,4 +14,7 @@
   &:hover {
     background-color: #87ea8b;
   }
+}
+.nav-item-selected {
+  background-color: #87ea8b;
 }
