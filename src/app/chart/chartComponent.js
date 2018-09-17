@@ -17,6 +17,7 @@ class Chart extends Component {
 
   drawchart = () => {
     if (this.props.stock.data && this.props.stock.data[this.state.fieldName]) {
+      // Copy the data into an array
       let timeObjects = Object.keys(this.props.stock.data[this.state.fieldName])
         .sort(this.sortDate)
         .map(k => this.props.stock.data[this.state.fieldName][k]);
