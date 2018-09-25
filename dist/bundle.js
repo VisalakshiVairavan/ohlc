@@ -126,7 +126,7 @@ eval("exports = module.exports = __webpack_require__(/*! ../../../node_modules/c
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loader/lib/css-base.js */ \"./node_modules/css-loader/lib/css-base.js\")(false);\n// imports\n\n\n// module\nexports.push([module.i, \".nav-bar {\\n  background-color: #c3e2c4;\\n  color: grey;\\n  float: left;\\n  min-height: calc(100vh - 70px);\\n  flex: 1 0 auto;\\n  align-self: stretch; }\\n\\n.nav-item {\\n  border-bottom: 1px solid white;\\n  border-top: 1px solid white;\\n  cursor: pointer;\\n  padding: 15px; }\\n  .nav-item:hover {\\n    background-color: #87ea8b; }\\n\\n.nav-item-selected {\\n  background-color: #87ea8b; }\\n\", \"\"]);\n\n// exports\n\n\n//# sourceURL=webpack:///./src/app/navBar/navBar.scss?./node_modules/css-loader!./node_modules/sass-loader/lib/loader.js");
+eval("exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loader/lib/css-base.js */ \"./node_modules/css-loader/lib/css-base.js\")(false);\n// imports\n\n\n// module\nexports.push([module.i, \".nav-bar {\\n  background-color: #c3e2c4;\\n  color: grey;\\n  float: left;\\n  min-height: calc(100vh - 75px);\\n  flex: 1 0 auto;\\n  align-self: stretch; }\\n\\n.nav-item {\\n  border-bottom: 1px solid white;\\n  border-top: 1px solid white;\\n  cursor: pointer;\\n  padding: 15px; }\\n  .nav-item:hover {\\n    background-color: #87ea8b; }\\n\\n.nav-item-selected {\\n  background-color: #87ea8b; }\\n\", \"\"]);\n\n// exports\n\n\n//# sourceURL=webpack:///./src/app/navBar/navBar.scss?./node_modules/css-loader!./node_modules/sass-loader/lib/loader.js");
 
 /***/ }),
 
