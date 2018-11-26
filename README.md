@@ -8,10 +8,10 @@ To run the project run,
 
 `npm install`
 
-`npm install webpack-dev-server -g`
+`npm install webpack webpack-dev-server -g`
 
 `npm run dist`
 
-`webpack-server-dev`
+`webpack-dev-server`
 
 Launch the site from http://localhost:8080/dist
