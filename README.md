@@ -8,6 +8,8 @@ To run the project run,
 
 `npm install`
 
+`npm install webpack-dev-server -g`
+
 `npm run dist`
 
 `webpack-server-dev`
