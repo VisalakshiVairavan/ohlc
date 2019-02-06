@@ -1,3 +1,11 @@
 {
-  "alias": ["laurenlofton.space"]
+  "alias": ["laurenlofton.space"],
+  "version": 2,
+    "name": "ohlc",
+    "builds": [
+        { "src": "package.json", "use": "@now/static-build" }
+    ],
+    "routes": [
+        {"src": "^/(.*)", "dest": "/index.html"}
+    ]
 }
